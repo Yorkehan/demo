@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="demo-common" />
+        <module name="demo-manager-mapper" />
+        <module name="demo-manager-pojo" />
+        <module name="demo-manager-service" />
+        <module name="demo-manager-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-common" target="1.8" />
+      <module name="demo-manager" target="1.8" />
+      <module name="demo-manager-mapper" target="1.8" />
+      <module name="demo-manager-pojo" target="1.8" />
+      <module name="demo-manager-service" target="1.8" />
+      <module name="demo-manager-web" target="1.8" />
+      <module name="demo-parent" target="1.8" />
+      <module name="demo-protal" target="1.8" />
+      <module name="demosada" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo-common" options="-parameters" />
+      <module name="demo-manager-mapper" options="-parameters" />
+      <module name="demo-manager-pojo" options="-parameters" />
+      <module name="demo-manager-service" options="-parameters" />
+      <module name="demo-manager-web" options="-parameters" />
+    </option>
+  </component>
+</project>
