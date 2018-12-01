@@ -15,15 +15,6 @@ import javax.annotation.Resource;
 
 @Controller
 public class PageController {
-    @Autowired
-    private RedisUtil redisUtil;
-    @Autowired
-    private CookieUtil cookieUtil;
-    @Autowired
-    private RedisTemplate redisTemplate;
-
-    @Resource
-    private UserService userService;
     @RequestMapping("/")
     public String indexPage(){
         return "redirect:/admin";
@@ -33,15 +24,8 @@ public class PageController {
         return "index";
     }
     @RequestMapping("/login")
-    public String login(User user, Model model){
-        UsernamePasswordToken passwordToken = new UsernamePasswordToken(user.getUserName(), user.getUserPassword());
-        Subject subject = SecurityUtils.getSubject();
-        try {
-            subject.login(passwordToken);
-        }catch (Exception e){
-            e.printStackTrace();
-            return "login";
-        }
+    public String login(){
+
         return "redirect:/admin";
     }
     /*
