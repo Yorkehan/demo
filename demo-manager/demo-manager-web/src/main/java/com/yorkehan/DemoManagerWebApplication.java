@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
 @SpringBootApplication
-@MapperScan("com.yorkehan.mapper")
+@MapperScan("com.yorkehan.mapper.dao")
 public class DemoManagerWebApplication {
 
     public static void main(String[] args) {
