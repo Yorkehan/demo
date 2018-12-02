@@ -108,7 +108,7 @@
           <element id="library" level="project" name="Maven: org.thymeleaf.extras:thymeleaf-extras-java8time:3.0.1.RELEASE" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.47" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.10" />
-          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.49" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.54" />
           <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.0.5.RELEASE" />
@@ -126,6 +126,7 @@
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-to-slf4j:2.10.0" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.10.0" />
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.8.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
