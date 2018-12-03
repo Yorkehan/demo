@@ -29,8 +29,5 @@ public class PageController {
     public String login(){
         return "redirect:/admin";
     }
-    /*
-    * 获取cookie
-    */
 
 }
